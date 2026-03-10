@@ -12,7 +12,7 @@ stage('Publish'){
     publishHTML([
       allowmissing:true,
       alwaysLinktoLastBuild:false,
-      KeepAll:false,
+      keepAll:false,
       reportDir:'.',
       reportFiles:'index.html',
       reportName:'MY HTML PIPE PAGE'
